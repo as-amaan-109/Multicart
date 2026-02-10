@@ -100,8 +100,8 @@ export default function Footer({ user }: { user: IUser }) {
         <div className="space-y-2">
           <h3 className="text-white text-lg font-semibold mb-4">Contact Info</h3>
           <p className="text-sm">admin@multicart.com</p>
-          <p className="text-sm">+91 98765 43210</p>
-          <p className="text-sm">New Delhi, India</p>
+          <p className="text-sm">+91 8766962313</p>
+          <p className="text-sm">Aurangabad, India</p>
         </div>
       </div>
 
