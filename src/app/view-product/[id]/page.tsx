@@ -98,6 +98,7 @@ const avgRating =
         alert("✅ Added to cart");
       }
       router.push("/cart")
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     } catch (err: any) {
       console.log(err);
       alert(
@@ -135,6 +136,7 @@ const avgRating =
     setReviewImage(null);
     setPreview(null);
 
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   } catch (err: any) {
     alert(err?.response?.data?.message || "Failed to add review");
   } finally {

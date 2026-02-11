@@ -30,6 +30,7 @@ export async function DELETE(req: Request) {
     const initialLength = product.reviews.length;
 
     product.reviews = product.reviews.filter(
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
       (r: any) => r._id.toString() !== reviewId.toString()
     );
 
